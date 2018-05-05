@@ -327,12 +327,12 @@ footer {
   }
 
   .logo {
-    width: 50%;
+    width: 40%;
     float: left;
   }
 
   nav {
-    width: 50%;
+    width: 60%;
     float: left
   }
 
@@ -369,11 +369,11 @@ footer {
   }
 
   .sidebar-about-us {
-    display: contents;
+    display: block;
   }
 
   .sidebar-faqs {
-    display: contents;
+    display: block;
   }
 
   .feed {
@@ -404,10 +404,43 @@ footer {
     margin: auto;
   }
 
+  /* Subpages */
+
+  /* About Us */
+
+  .contact-summary {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .contact-info {
+    width: 35%;
+    padding: 0 5% 0 0;
+    float: left;
+  }
+
+  .map {
+    width: 60%;
+    float: left;
+  }
+
+  .team-img {
+    width: 15%;
+    float: left;
+    padding: 0 10% 0 0;
+  }
+
+  .team-info {
+    width: 75%;
+    float: left;
+  }
+
 }
 
+/* Desktop Design */
+
 @media only screen and (min-width: 940px) {
-  /* Desktop styles! */
+  /* Desktop styles */
 }
 
 /* ==========================================================================
