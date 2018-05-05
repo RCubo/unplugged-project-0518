@@ -127,6 +127,37 @@ main {
   clear: both;
 }
 
+.hero-area {
+  width: 100%;
+}
+
+.sidebar-newsletter{
+  width: 100%;
+}
+
+.sidebar-about-us {
+  display: none;
+}
+
+.sidebar-faqs {
+  display: none;
+}
+
+.feed, .feed-item {
+  width: 100%;
+}
+
+.feed-img {
+  width: 45%;
+  float: left;
+  padding: 0 10% 0 0;
+}
+
+.feed-text {
+  width: 45%;
+  float: left;
+}
+
 /* Footer area */
 
 footer {
