@@ -90,6 +90,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General */
+
+figure {
+  margin: 0;
+}
+
 /* Header area */
 
 .main-header {
@@ -143,8 +149,13 @@ main {
   display: none;
 }
 
-.feed, .feed-item {
+.feed {
   width: 100%;
+}
+
+.feed-item {
+  width: 100%;
+  overflow: auto;
 }
 
 .feed-img {
@@ -156,6 +167,10 @@ main {
 .feed-text {
   width: 45%;
   float: left;
+}
+
+.feed-body {
+  display: none;
 }
 
 /* Footer area */
@@ -200,6 +215,10 @@ footer {
 .team-info {
   width: 45%;
   float: left;
+}
+
+.team-description {
+  display: none;
 }
 
 /* ==========================================================================
