@@ -96,6 +96,43 @@ figure {
   margin: 0;
 }
 
+body, html {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-weight: 700;
+  color: #23a4cc;
+  text-decoration: none;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.3125em;
+  font-weight: 700;
+  line-height: 1.3125em;
+}
+
+h3, h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.625em;
+  text-transform: uppercase;
+}
+
 /* Header area */
 
 .main-header {
