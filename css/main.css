@@ -317,14 +317,97 @@ footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* Tablet design */
+@media only screen and (min-width: 766px) {
+
+  /* Header */
+  .header-wrapper {
+    width: 96%;
+    padding: 0 2%;
+  }
+
+  .logo {
+    width: 50%;
+    float: left;
+  }
+
+  nav {
+    width: 50%;
+    float: left
+  }
+
+  /* Main content */
+
+  main {
+    overflow: auto;
+  }
+
+  .hero-area {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .top-img {
+    width: 60%;
+    float: left;
+  }
+
+  .top-story-area {
+    width: 35%;
+    padding: 0 0 0 5%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 35%;
+    padding: 0 0 0 5%;
+    float: right;
+  }
+
+  .sidebar-newsletter{
+    width: 100%;
+  }
+
+  .sidebar-about-us {
+    display: contents;
+  }
+
+  .sidebar-faqs {
+    display: contents;
+  }
+
+  .feed {
+    width: 60%;
+    float: left;
+  }
+
+  .feed-item {
+    width: 100%;
+    overflow: auto;
+  }
+
+  .feed-img {
+    width: 30%;
+    float: left;
+    padding: 0 10% 0 0;
+  }
+
+  .feed-text {
+    width: 60%;
+    float: left;
+  }
+
+  /* Footer Area */
+
+  .footer-logo {
+    width: 26%;
+    margin: auto;
+  }
+
 }
 
-@media print,
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 940px) {
+  /* Desktop styles! */
 }
 
 /* ==========================================================================
