@@ -171,12 +171,36 @@ footer {
 }
 
 
+/* Subpages */
 
+/* About Us */
 
+.contact-info {
+  width: 100%;
+}
 
+.map {
+  width: 100%;
+}
 
+.mission {
+  width: 100%;
+}
 
+.team {
+  width: 100%;
+}
 
+.team-img {
+  width: 45%;
+  float: left;
+  padding: 0 10% 0 0;
+}
+
+.team-info {
+  width: 45%;
+  float: left;
+}
 
 /* ==========================================================================
    Helper classes
