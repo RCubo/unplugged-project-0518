@@ -101,6 +101,7 @@ figure {
 .main-header {
   width: 100%;
   overflow-x: hidden;
+  margin: auto;
 }
 
 .header-wrapper {
@@ -440,7 +441,101 @@ footer {
 /* Desktop Design */
 
 @media only screen and (min-width: 940px) {
-  /* Desktop styles */
+
+  /* Maximum width */
+  header, main, footer {
+    max-width: 1200px;
+  }
+
+  /* Header area */
+
+  .header-wrapper {
+    max-width: 1200px;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  nav {
+    width: 65%;
+    float: left
+  }
+
+  /* Main area */
+
+  .hero-area {
+    width: 60%;
+    float: left;
+    overflow: auto;
+  }
+
+  .top-img {
+    width: 100%;
+    float: none;
+  }
+
+  .top-story-area {
+    width: 100%;
+    padding: 0 0 0 0;
+    float: none;
+  }
+
+  .sidebar {
+    width: 35%;
+    padding: 0 0 0 5%;
+    float: left;
+  }
+
+  .feed {
+    width: 100%;
+    float: none;
+  }
+
+  .feed-img {
+    width: 18%;
+    float: left;
+    padding: 0 5% 0 0;
+  }
+
+  .feed-text {
+    width: 77%;
+    float: left;
+  }
+
+  .feed-body {
+    display: block;
+  }
+
+  /* Footer Area */
+
+  .footer-logo {
+    width: 20%;
+    margin: auto;
+  }
+
+  /* Subpages */
+
+  /* About Us */
+
+  .map {
+    width: 50%;
+    padding-right: 10%;
+  }
+
+  .team-img {
+    width: 20%;
+    padding-right: 3%;
+  }
+
+  .team-info {
+    width: 77%;
+  }
+
+  .team-description {
+    display: block;
+  }
+
 }
 
 /* ==========================================================================
