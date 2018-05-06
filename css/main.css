@@ -372,6 +372,28 @@ footer {
 /* Tablet design */
 @media only screen and (min-width: 766px) {
 
+  /* Global Styles */
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.375em;
+  }
+
+  h3 {
+    font-size: 1.3125em;
+    line-height: 1em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+    line-height: 1.25em;
+  }
+
+  h5 {
+    font-size: 0.75em;
+  }
+
   /* Header */
   .header-wrapper {
     width: 96%;
@@ -405,14 +427,14 @@ footer {
   }
 
   .top-story-area {
-    width: 35%;
-    padding: 0 0 0 5%;
+    width: 38%;
+    padding: 0 0 0 2%;
     float: left;
   }
 
   .sidebar {
-    width: 35%;
-    padding: 0 0 0 5%;
+    width: 38%;
+    padding: 0 0 0 2%;
     float: right;
   }
 
@@ -498,6 +520,28 @@ footer {
     max-width: 1200px;
   }
 
+  /* Global Styles */
+
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+    line-height: 2.25em;
+  }
+
+  h3 {
+    font-size: 1.875em;
+    line-height: 1em;
+  }
+
+  h4 {
+    font-size: 1.3125em;
+    line-height: 1.25em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
   /* Header area */
 
   .header-wrapper {
@@ -536,6 +580,10 @@ footer {
     width: 35%;
     padding: 0 0 0 5%;
     float: left;
+  }
+
+  #news-header {
+    font-size: 1.125em;
   }
 
   .feed {
