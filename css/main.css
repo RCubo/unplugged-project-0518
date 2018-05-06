@@ -183,7 +183,7 @@ nav ul li a {
   color: #222222;
 }
 
-nav ul li span {
+.nav-selected {
   color: #ff1256;
 }
 
