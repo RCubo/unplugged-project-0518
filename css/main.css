@@ -539,6 +539,9 @@ footer {
   /* Header */
   .header-wrapper {
     width: 100%;
+    overflow: auto;
+    background-color: #DDDDDD;
+    position: relative;
   }
 
   .logo {
@@ -549,10 +552,14 @@ footer {
   }
 
   nav {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    vertical-align: middle;
     width: 58%;
     padding-left: 0;
     padding-right: 2%;
-    float: left
+    float: left;
   }
 
   nav ul {
@@ -564,6 +571,7 @@ footer {
     width: 39%;
     padding-right: 10%;
     border-bottom: 0px;
+    padding-top: 0px;
   }
 
   nav ul li img {
@@ -628,6 +636,32 @@ footer {
     border-right: 3px solid;
     border-color: #d19aaa;
     height: 38px;
+  }
+
+  .sidebar-link {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    background-color: #b21e49;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    height: 38px;
+    border-top: 0px;
+    border-left: 0px;
+    border-color: #bababa;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: center;
+  }
+
+  .sidebar-link a {
+    padding-top: 20%;
+    line-height: 38px;
+    vertical-align: middle;
+    color: #FFFFFF;
   }
 
   .sidebar-about-us {
