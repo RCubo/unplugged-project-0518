@@ -180,9 +180,7 @@ nav ul li a {
 }
 
 nav ul li span {
-  text-transform: lowercase;
-  font-weight: bold;
-  color: #222222;
+  color: #ff1256;
 }
 
 /* Main area */
@@ -293,6 +291,10 @@ footer {
 
 /* About Us */
 
+.contact-summary {
+  padding: 30px 0;
+}
+
 .contact-info {
   width: 100%;
 }
@@ -307,14 +309,19 @@ footer {
   display: inline-block;
   font-size: 1em;
   line-height: 1.125em;
+  padding-bottom: 15px;
 }
 
 .strong {
   font-weight: 700;
+  vertical-align: top;
 }
 
 .map {
-  width: 100%;
+  width: 98%;
+  height: 200px;
+  border: 2px solid;
+  border-color: #cfcacb;
 }
 
 .mission {
@@ -331,9 +338,11 @@ footer {
 }
 
 .team-img {
-  width: 45%;
+  width: 43%;
   float: left;
-  padding: 0 10% 0 0;
+  margin: 0 10% 0 0;
+  border: 2px solid;
+  border-color: #cfcacb;
 }
 
 .team-info {
