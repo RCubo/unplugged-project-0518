@@ -150,9 +150,12 @@ h5 {
 }
 
 .logo {
-  width: 96%;
-  padding: 0 2%;
+  width: 100%;
   background-color: #DDDDDD;
+}
+
+.logo img {
+  width: 100%;
 }
 
 nav {
@@ -201,6 +204,14 @@ main {
   border-color: #cfcacb;
 }
 
+.top-img {
+  margin-bottom: 15px;
+}
+
+.top-img img {
+  width: 100%;
+}
+
 .sidebar-newsletter {
   width: 100%;
   padding-bottom: 20px;
@@ -222,6 +233,7 @@ main {
   height: 35px;
   border-top: 0px;
   border-left: 0px;
+  border-color: #d19aaa;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
@@ -261,6 +273,10 @@ main {
   border-color: #cfcacb;
 }
 
+.feed-img img {
+  width: 100%;
+}
+
 .feed-text {
   width: 45%;
   float: left;
@@ -285,6 +301,10 @@ footer {
 .footer-logo {
   width: 47.5%;
   margin: auto;
+}
+
+.footer-logo img {
+  width: 100%;
 }
 
 
@@ -336,6 +356,14 @@ footer {
 
 .team {
   width: 100%;
+  border-bottom: 1px solid;
+  border-color: #cfcacb;
+  overflow: auto;
+}
+
+.team-member {
+  padding-bottom: 15px;
+  overflow: auto;
 }
 
 .team-img {
@@ -344,6 +372,10 @@ footer {
   margin: 0 10% 0 0;
   border: 2px solid;
   border-color: #cfcacb;
+}
+
+.team-img img {
+  width: 100%;
 }
 
 .team-info {
@@ -491,11 +523,13 @@ footer {
   h3 {
     font-size: 1.3125em;
     line-height: 1em;
+    padding-top: 20px;
   }
 
   h4 {
     font-size: 1.125em;
     line-height: 1.25em;
+    padding-top: 20px;
   }
 
   h5 {
@@ -555,6 +589,7 @@ footer {
     border-color: #000000;
   }
 
+
   .top-story-area {
     width: 38%;
     padding: 0 0 0 2%;
@@ -570,49 +605,78 @@ footer {
   }
 
   .sidebar {
-    width: 38%;
-    padding: 0 0 0 2%;
+    width: 40.7%;
+    padding: 0;
     float: right;
   }
 
   .sidebar-newsletter{
+    width: 98%;
+    padding: 0 0 20px 2%;
+  }
+
+  .signup-mail {
+    width: 99%;
+    border: 3px solid;
+    border-color: #e6e6e6;
+    height: 28px;
+  }
+
+  .signup-btn {
     width: 100%;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    border-color: #d19aaa;
+    height: 38px;
   }
 
   .sidebar-about-us {
+    width: 98%;
+    padding: 0 0 20px 2%;
     display: block;
     border-bottom: 1px solid;
     border-color: #cccccc;
   }
 
   .sidebar-faqs {
+    width: 98%;
+    padding: 0 0 20px 2%;
     display: block;
     border-bottom: 1px solid;
     border-color: #cccccc;
   }
 
   .feed {
-    width: 60%;
+    width: 59%;
     float: left;
+    border-right: 1px solid;
+    border-color: #cccccc;
   }
 
   .feed-item {
-    width: 100%;
+    width: 98%;
+    padding-left: 2%;
     overflow: auto;
   }
 
   .feed-img {
     width: 30%;
     float: left;
-    padding: 0 10% 0 0;
+    margin: 0 10% 0 0;
   }
 
   .feed-text {
-    width: 60%;
+    width: 55%;
     float: left;
   }
 
   /* Footer Area */
+
+  footer {
+    border-top: 1px solid;
+    border-color: #cccccc;
+    padding-top: 30px;
+  }
 
   .footer-logo {
     width: 26%;
