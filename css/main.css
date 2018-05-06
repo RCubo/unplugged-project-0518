@@ -155,11 +155,17 @@ nav {
 }
 
 nav ul {
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li {
-
+nav ul li{
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* Main area */
@@ -175,7 +181,15 @@ main {
   width: 100%;
 }
 
-.sidebar-newsletter{
+.sidebar-newsletter {
+  width: 100%;
+}
+
+.signup-mail {
+  width: 100%;
+}
+
+.signup-btn {
   width: 100%;
 }
 
