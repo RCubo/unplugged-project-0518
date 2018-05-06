@@ -98,6 +98,7 @@ figure {
 
 body, html {
 	font-family: 'Source Sans Pro', sans-serif;
+  background-color: #EEEEEE;
 }
 
 a {
@@ -122,15 +123,18 @@ h2 {
   font-size: 1.3125em;
   font-weight: 700;
   line-height: 1.3125em;
+  padding-bottom: 10px;
 }
 
 h3, h4 {
   font-size: 1em;
+  padding: 10px 0;
 }
 
 h5 {
   font-size: 0.625em;
   text-transform: uppercase;
+  padding-bottom: 6px;
 }
 
 /* Header area */
@@ -142,16 +146,18 @@ h5 {
 }
 
 .header-wrapper {
+  width: 100%;
+}
+
+.logo {
   width: 96%;
   padding: 0 2%;
 }
 
-.logo {
-  width: 100%;
-}
-
 nav {
-  width: 100%;
+  width: 96%;
+  padding: 0 2%;
+  background-color: #DDDDDD;
 }
 
 nav ul {
@@ -162,10 +168,21 @@ nav ul {
 
 nav ul li{
   display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  border-color: #cfcacb;
 }
 nav ul li a {
-  text-transform: uppercase;
   font-weight: bold;
+  color: #222222;
+}
+
+nav ul li span {
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #222222;
 }
 
 /* Main area */
@@ -179,18 +196,37 @@ main {
 
 .hero-area {
   width: 100%;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+  border-color: #cfcacb;
 }
 
 .sidebar-newsletter {
   width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  border-color: #cccccc;
 }
 
 .signup-mail {
   width: 100%;
+  border: 1px solid;
+  border-color: #e6e6e6;
+  height: 35px;
+  margin-bottom: 5px;
 }
 
 .signup-btn {
   width: 100%;
+  background-color: #ff1256;
+  height: 35px;
+  border-top: 0px;
+  border-left: 0px;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .sidebar-about-us {
@@ -205,20 +241,34 @@ main {
   width: 100%;
 }
 
+#news-header {
+  padding-bottom: 0;
+}
+
 .feed-item {
   width: 100%;
   overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+  border-color: #CCCCCC;
 }
 
 .feed-img {
-  width: 45%;
+  width: 42%;
   float: left;
-  padding: 0 10% 0 0;
+  margin: 0 10% 0 0;
+  border: 2px solid;
+  border-color: #cfcacb;
 }
 
 .feed-text {
   width: 45%;
   float: left;
+}
+
+.feed-text h4 {
+  padding: 0;
 }
 
 .feed-body {
@@ -230,6 +280,7 @@ main {
 footer {
   width: 100%;
   margin: auto;
+  padding-top: 15px;
 }
 
 .footer-logo {
@@ -533,6 +584,11 @@ footer {
     float: left;
   }
 
+  .mission p {
+    line-height: 1.375em;
+    padding-bottom: 1.375em;
+  }
+
   .team-img {
     width: 15%;
     float: left;
@@ -542,6 +598,24 @@ footer {
   .team-info {
     width: 75%;
     float: left;
+  }
+
+  .team-name {
+    font-size: 1.125em;
+  }
+
+  .team-title {
+    font-size: 1em;
+    line-height: 1.125em;
+  }
+
+  .faq-title {
+    line-height: 4.5em;
+  }
+
+  .question-title {
+    font-size: 1.125em;
+    line-height: 1em;
   }
 
 }
@@ -652,9 +726,24 @@ footer {
 
   /* About Us */
 
+  .contact-info h2 {
+    font-size: 1.875em;
+    line-height: 1.875em;
+  }
+
+  .contact-info ul li {
+    font-size: 1.3125em;
+    line-height: 1.3125em;
+  }
+
   .map {
     width: 50%;
     padding-right: 10%;
+  }
+
+  .mission p {
+    line-height: 1.375em;
+    padding-bottom: 1.375em;
   }
 
   .team-img {
@@ -666,7 +755,15 @@ footer {
     width: 77%;
   }
 
+  .team-name {
+    font-size: 1.3125em;
+    line-height: 1.125em;
+  }
+
   .team-description {
+    font-size: 1em;
+    line-height: 1.375em;
+    padding-bottom: 1.375em;
     display: block;
   }
 
