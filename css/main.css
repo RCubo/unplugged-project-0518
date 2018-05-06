@@ -246,12 +246,33 @@ footer {
   width: 100%;
 }
 
+.contact-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info ul li {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.125em;
+}
+
+.strong {
+  font-weight: 700;
+}
+
 .map {
   width: 100%;
 }
 
 .mission {
   width: 100%;
+}
+
+.mission p {
+  line-height: 1.25em;
+  padding-bottom: 1.25em;
 }
 
 .team {
@@ -269,6 +290,15 @@ footer {
   float: left;
 }
 
+.team-name {
+  font-weight: 700;
+  line-height: 1.125em;
+}
+
+.team-title {
+  line-height: 1.125em;
+}
+
 .team-description {
   display: none;
 }
@@ -281,6 +311,11 @@ footer {
 
 .faq-question {
   width: 100%;
+}
+
+.question-title {
+  font-weight: normal;
+  line-height: 1.125em;
 }
 
 /* ==========================================================================
