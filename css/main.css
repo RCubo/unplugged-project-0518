@@ -367,15 +367,27 @@ footer {
 
 .faq-title {
   width: 100%;
+  padding-top: 30px;
+}
+
+.faq-title h2 {
+  padding-bottom: 0;
 }
 
 .faq-question {
   width: 100%;
+  border-bottom: 1px solid;
+  border-color: #cccccc;
 }
 
 .question-title {
   font-weight: normal;
   line-height: 1.125em;
+  padding-top: 20px;
+}
+
+.question-contact {
+  padding: 20px 0;
 }
 
 /* ==========================================================================
