@@ -339,10 +339,20 @@ footer {
 }
 
 .map {
+  position: relative;
   width: 98%;
-  height: 200px;
+  padding-bottom: 75%;
+  /*height: 200px;*/
   border: 2px solid;
   border-color: #cfcacb;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .mission {
@@ -740,7 +750,8 @@ footer {
   .map {
     width: 59%;
     float: left;
-    height: 330px;
+    padding-bottom: 44.25%;
+    height: 0px;
   }
 
   .mission {
@@ -972,7 +983,7 @@ footer {
 
   .map {
     width: 45%;
-    height: 330px;
+    padding-bottom: 33.75%;
   }
 
   .mission {
