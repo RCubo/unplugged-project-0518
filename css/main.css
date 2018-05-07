@@ -887,8 +887,8 @@ footer {
   }
 
   nav ul li{
-    width: 25%;
-    padding-right: 5%;
+    width: 30%;
+    padding-right: 0;
   }
 
   /* Main area */
