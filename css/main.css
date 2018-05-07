@@ -906,8 +906,10 @@ footer {
 
   .feed {
     width: 100%;
+    border: 0px;
     float: none;
     overflow: auto;
+    padding-bottom: 50px;
   }
 
   .feed-item {
@@ -925,11 +927,23 @@ footer {
     float: left;
   }
 
+  .feed-text h4 {
+    padding-bottom: 15px;
+  }
+
   .feed-body {
     display: block;
   }
 
+  #last-feed {
+    border: 0px;
+  }
+
   /* Footer Area */
+
+  footer {
+    padding-top: 30px;
+  }
 
   .footer-logo {
     width: 20%;
@@ -939,6 +953,12 @@ footer {
   /* Subpages */
 
   /* About Us */
+
+  .contact-info {
+    width: 35%;
+    padding: 0 5% 0 0;
+    float: left;
+  }
 
   .contact-info h2 {
     font-size: 1.875em;
@@ -951,8 +971,17 @@ footer {
   }
 
   .map {
-    width: 50%;
-    padding-right: 10%;
+    width: 45%;
+    height: 330px;
+  }
+
+  .mission {
+    width: 95%;
+    padding-right: 5%;
+  }
+
+  .mission h2 {
+    padding: 0;
   }
 
   .mission p {
@@ -960,18 +989,31 @@ footer {
     padding-bottom: 1.375em;
   }
 
+  .team {
+    padding-bottom: 50px;
+  }
+
+  .team h2 {
+    padding: 0;
+  }
+
   .team-img {
     width: 20%;
-    padding-right: 3%;
+    margin-right: 3%;
   }
 
   .team-info {
-    width: 77%;
+    width: 71%;
+    padding-right: 5%;
   }
 
   .team-name {
     font-size: 1.3125em;
     line-height: 1.125em;
+  }
+
+  .team-title {
+    padding-bottom: 20px;
   }
 
   .team-description {
