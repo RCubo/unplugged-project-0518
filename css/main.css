@@ -688,8 +688,9 @@ footer {
   }
 
   .feed-item {
-    width: 98%;
+    width: 90%;
     padding-left: 2%;
+    padding-right: 8%;
     overflow: auto;
   }
 
@@ -787,13 +788,33 @@ footer {
     line-height: 1.125em;
   }
 
+  /* FAQs */
+
   .faq-title {
+    padding-top: 50px;
+    margin-bottom: -10px;
     line-height: 4.5em;
+  }
+
+  .faq-title h2 {
+    padding-bottom: 0;
+  }
+
+  .faq-question {
+    width: 100%;
+    border-bottom: 1px solid;
+    border-color: #cccccc;
   }
 
   .question-title {
     font-size: 1.125em;
     line-height: 1em;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .question-contact {
+    padding: 20px 0 40px 0;
   }
 
 }
@@ -840,8 +861,18 @@ footer {
   }
 
   nav {
-    width: 65%;
-    float: left
+    width: 58%;
+    float: left;
+    top: 45%;
+  }
+
+  nav ul {
+    padding-left: 33%;
+  }
+
+  nav ul li{
+    width: 25%;
+    padding-right: 5%;
   }
 
   /* Main area */
@@ -853,7 +884,7 @@ footer {
   }
 
   .top-img {
-    width: 100%;
+    width: 99%;
     float: none;
   }
 
@@ -876,16 +907,21 @@ footer {
   .feed {
     width: 100%;
     float: none;
+    overflow: auto;
+  }
+
+  .feed-item {
+    padding-left: 0;
   }
 
   .feed-img {
     width: 18%;
     float: left;
-    padding: 0 5% 0 0;
+    margin: 0 5% 0 0;
   }
 
   .feed-text {
-    width: 77%;
+    width: 76%;
     float: left;
   }
 
