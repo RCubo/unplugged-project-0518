@@ -723,6 +723,10 @@ footer {
 
   .contact-summary {
     width: 100%;
+    border-bottom: 1px solid;
+    border-color: #CCCCCC;
+    padding-top: 50px;
+    padding-bottom: 50px;
     overflow: auto;
   }
 
@@ -733,8 +737,16 @@ footer {
   }
 
   .map {
-    width: 60%;
+    width: 59%;
     float: left;
+    height: 330px;
+  }
+
+  .mission {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    border-color: #CCCCCC;
   }
 
   .mission p {
@@ -742,15 +754,28 @@ footer {
     padding-bottom: 1.375em;
   }
 
+  .team {
+    padding-bottom: 25px;
+  }
+
+  .team h2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
   .team-img {
     width: 15%;
     float: left;
-    padding: 0 10% 0 0;
+    margin: 0 10% 0 0;
   }
 
   .team-info {
-    width: 75%;
+    width: 73%;
     float: left;
+  }
+
+  .team-info h3 {
+    padding: 0 0 5px 0;
   }
 
   .team-name {
