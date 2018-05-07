@@ -194,6 +194,7 @@ main {
   padding: 0 2%;
   margin: auto;
   clear: both;
+  display: block;
 }
 
 .hero-area {
@@ -893,9 +894,13 @@ footer {
   /* Main area */
 
   .hero-area {
-    width: 60%;
+    width: 56.5%;
     float: left;
     overflow: auto;
+    border-bottom: 0px;
+    border-right: 1px solid;
+    padding-right: 3%;
+    border-color: #CCCCCC;
   }
 
   .top-img {
@@ -910,8 +915,8 @@ footer {
   }
 
   .sidebar {
-    width: 35%;
-    padding: 0 0 0 5%;
+    width: 40%;
+    padding: 0;
     float: left;
   }
 
@@ -921,7 +926,9 @@ footer {
 
   .feed {
     width: 100%;
-    border: 0px;
+    border-top: 1px solid;
+    border-color: #CCCCCC;
+    border-right: 0px;
     float: none;
     overflow: auto;
     padding-bottom: 50px;
